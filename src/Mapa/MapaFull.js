@@ -8,7 +8,10 @@ import {
 import { scaleLinear } from 'd3-scale';
 const geoUrl =
   'https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json';
-
+/**
+ * falta agregar mas color
+ * o encontrar crear otro metodo para agregar colores en escala
+ */
 const ColorMax = (color) => {
   if (color === 'blue') {
     return ['#80b9ff', '#0000a0'];

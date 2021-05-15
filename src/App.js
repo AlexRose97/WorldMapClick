@@ -15,7 +15,7 @@ function FullApp() {
 
   /**
    * este metodo agrega paises ramdom al mapa
-   * falta definir mas colores
+   * revisar la lista de paises
    */
   const mandarMapa = () => {
     var listaAux = [];
@@ -34,6 +34,7 @@ function FullApp() {
     console.log(listaAux);
     setnuevo(listaAux);
   };
+
   const mandarMapaT = () => {
     var listaAux = [];
     for (let index = 0; index < listaPaises.lista.length; index++) {
